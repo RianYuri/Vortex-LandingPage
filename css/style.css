@@ -292,14 +292,7 @@ body{
     padding: 20px;
     text-align: center;
   }
-  /* 01,02,03 comentado caso for escuros so descomentar pai */
-  /* #card .container .card .box .content h2 {
-    position: absolute;
-    top: -10px;
-    right: 10px;
-    font-size: 8rem;
-    color: rgba(0, 0, 0, 0.156);
-  } */
+
   
   #card .container .card .box .content h3 {
     font-size: 1.8rem;
@@ -322,6 +315,7 @@ body{
    left: 45px;
    position: absolute;
    z-index: 1;
+   
    width: 190px;
   }
   
@@ -353,37 +347,7 @@ body{
         max-height: 120px;
     }
 }
-/*
-#projetos .turizer{
-    display: block;
-    background: transparent;
-    border-radius: 5px;
-    text-align: center;
-    padding: 30px;
-    color: white;
-    text-decoration: none;
-    transition: all ease-out 0.2s;
-}
-#projetos .turizer .img-container-projects{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 300px;
-}
 
-.button-projects {
-    color: white;
-    background-color: green;
-    border-color: green;
-}
-@media (max-width:767.98px){
-    #projetos .turizer .img-container{
-        height: 140px;
-    }
-    #projetos .turizer .img-container img{
-        max-height: 140px;
-    }
-}*/
 /*FIM DOS PROJETOS*/
 
 
@@ -396,7 +360,7 @@ body{
   width: 900px;
   border-radius: 0px 5px 5px 0px;
   color: white;
-  left: 200px;
+  left: 500px;
   position: relative;
  justify-content: center;
  align-items: center;
@@ -414,13 +378,15 @@ body{
   justify-content: center;
   align-items: center;
 position: relative;
-top: 49px;
-right: 125px;
+
+right: 425px;
 }
 
  .email form{
     width: 60%;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
  .email .form-control, .email .form-control::placeholder{
   background: none;
@@ -571,7 +537,7 @@ input:focus ~ label, textarea:focus ~ label, input:valid ~ label, textarea:valid
 
 input,
 textarea {
-  padding: 30px;
+  padding: 25px;
   border: 0;
   width: 100%;
   font-size: 1rem;
@@ -659,8 +625,9 @@ font-style: normal;
   /* Rodape começo */
   #contato-footer {
   width: 100%;
-  height: 500px;
-  top: 500px;
+
+   height: 600px; 
+  top: 200px;
     position: relative;
     justify-content: center;
     
@@ -678,6 +645,9 @@ font-style: normal;
   .container-pe{
     background-image: url(../img/Logo_Footer.png);
    background-repeat: no-repeat;
+   display: flex;
+   justify-content: center;
+   align-items: center;
   width: 100%;
   height: 100%;
 background-size:180px; 
@@ -723,39 +693,42 @@ bottom: 150px;
     background: #457164;
     border-radius: 50%;
     opacity: 0;
-    -webkit-transform: translateX(30px);
-    transform: translateX(30px);
+    -webkit-transform: translateY(150px);
+    transform: translateX(150px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
+ 
+  position: relative;
+  top: 79px;
   }
   
   .navFooter a:nth-child(1):hover ~ .dot {
-    -webkit-transform: translateX(20px);
-    transform: translateX(20px);
+    -webkit-transform: translateX(-601px);
+    transform: translateX(-601px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navFooter a:nth-child(2):hover ~ .dot {
-    -webkit-transform: translateX(138px);
-    transform: translateX(138px);
+    -webkit-transform: translateX(-430px);
+    transform: translateX(-430px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navFooter a:nth-child(3):hover ~ .dot {
-    -webkit-transform: translateX(252px);
-    transform: translateX(252px);
+    -webkit-transform: translateX(-256px);
+    transform: translateX(-256px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
   }
   
   .navFooter a:nth-child(4):hover ~ .dot {
-    -webkit-transform: translateX(377px);
-    transform: translateX(377px);
+    -webkit-transform: translateX(-77px);
+    transform: translateX(-77px);
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
     opacity: 1;
@@ -810,7 +783,7 @@ bottom: 150px;
 }
 
 .ul-footer .li-footer:nth-child(2):hover #span-footer {
-background: #062ee1 !important;
+background: #3b5998 !important;
 }
 
 .ul-footer .li-footer:nth-child(3):hover #span-footer {
@@ -830,7 +803,7 @@ background: #062ee1 !important;
   justify-content: center;
   align-items: center;
   display: flex;
-  top: 150px;
+  top: 130px;
   color: #fff;;
 }
  .CoRi{
