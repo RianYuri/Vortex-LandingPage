@@ -810,3 +810,18 @@ background: #3b5998 !important;
   color: #0DA851;
   margin: 6px;
  }
+ @media (max-width:767.98px){
+  .ul-footer .rodape .navFooter #contato-footer{
+      height: 120px;
+  }
+  .ul-footer .rodape .navFooter #contato-footer{
+      max-height: 120px;
+  }
+  .navFooter .a-footer{
+    margin: 10px;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
