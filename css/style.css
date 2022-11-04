@@ -8,6 +8,7 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 body{
   height: 0px;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: 'Basique Pro';
@@ -338,13 +339,16 @@ body{
   }
   #card .card .container {
     max-height: 160px;
+    
 }
 @media (max-width:767.98px){
     #card .card .container{
         height: 120px;
+        
     }
     #card .card .container {
         max-height: 120px;
+        
     }
 }
 
@@ -606,18 +610,33 @@ input[type=checkbox]:checked + label {
 color: #f00;
 font-style: normal;
 }
-@media (max-width:767.98px){
-   .form1 .email {
+@media (max-width:1400.98px){
+   .email .form1 #contato .row{
       height: 120px;
-      max-width:420px;
+      
   }
-  .form1 .email   {
+   .email .form1 #contato .row{
       max-height: 120px;
-      max-width:320px;
-      position: relative;
-      left: 40px;
   }
-}
+  .form1{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 550px;
+  }
+  .contact-us, #contato{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+bottom: 500px;
+  }
+  } 
+
+  
+  
  
 /* FIM CONTATOS */
 
