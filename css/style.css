@@ -8,6 +8,7 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 body{
   height: 0px;
+  overflow-x: hidden;
 }
 @font-face {
   font-family: 'Basique Pro';
@@ -165,7 +166,7 @@ body{
 }
 @media (max-width:767.98px){
     #equipe a.integrantes .img-container {
-        height: 120px;
+        height: 160px;
         justify-content: center;
         align-items: center;
         display: flex;
@@ -338,13 +339,16 @@ body{
   }
   #card .card .container {
     max-height: 160px;
+    
 }
 @media (max-width:767.98px){
     #card .card .container{
         height: 120px;
+        
     }
     #card .card .container {
         max-height: 120px;
+        
     }
 }
 
@@ -355,12 +359,13 @@ body{
 
 /* COMEÇO CONTATOS */
 
+
 .email{
   height:600px;
   width: 900px;
   border-radius: 0px 5px 5px 0px;
   color: white;
-  left: 500px;
+ left: 350px;
   position: relative;
  justify-content: center;
  align-items: center;
@@ -606,18 +611,44 @@ input[type=checkbox]:checked + label {
 color: #f00;
 font-style: normal;
 }
-@media (max-width:767.98px){
-   .form1 .email {
+@media (max-width:1300.98px){
+   .email .form1 #contato .row{
       height: 120px;
-      max-width:420px;
+      
   }
-  .form1 .email   {
-      max-height: 120px;
-      max-width:320px;
-      position: relative;
-      left: 40px;
+   .email .form1 #contato .row{
+ 
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    
   }
-}
+  .form1{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 250px;
+  }
+  .contact-us, #contato{
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+right: 700px;
+  }
+  .email{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  position: relative;
+left: 230px;
+  }
+  } 
+
+  
+  
  
 /* FIM CONTATOS */
 
