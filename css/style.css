@@ -611,17 +611,25 @@ input[type=checkbox]:checked + label {
 color: #f00;
 font-style: normal;
 }
+<<<<<<< HEAD
 @media (max-width:1300.98px){
+=======
+@media (max-width:1400.98px){
+>>>>>>> 8209bd805db4bb7234fe11d2f13741a711ea0d70
    .email .form1 #contato .row{
       height: 120px;
       
   }
    .email .form1 #contato .row{
+<<<<<<< HEAD
  
       display: flex;
     justify-content: center;
     align-items: center;
     
+=======
+      max-height: 120px;
+>>>>>>> 8209bd805db4bb7234fe11d2f13741a711ea0d70
   }
   .form1{
     max-width: 1000px;
@@ -629,13 +637,18 @@ font-style: normal;
     justify-content: center;
     align-items: center;
     position: relative;
+<<<<<<< HEAD
     right: 250px;
+=======
+    right: 550px;
+>>>>>>> 8209bd805db4bb7234fe11d2f13741a711ea0d70
   }
   .contact-us, #contato{
 display: flex;
 align-items: center;
 justify-content: center;
 position: absolute;
+<<<<<<< HEAD
 right: 700px;
   }
   .email{
@@ -644,6 +657,9 @@ right: 700px;
   align-items: center;
   position: relative;
 left: 230px;
+=======
+bottom: 500px;
+>>>>>>> 8209bd805db4bb7234fe11d2f13741a711ea0d70
   }
   } 
 
